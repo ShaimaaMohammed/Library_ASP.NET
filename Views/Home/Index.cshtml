@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IEnumerable<Book>
+
+<html style="font-size: 16px;" lang="en">
+    
+  
+  
+  <body class="u-body u-xl-mode" data-lang="en">
+    <section class="skrollable skrollable-between u-align-center u-clearfix u-container-align-center-md u-container-align-center-sm u-container-align-center-xs u-image u-shading u-section-1" src="" id="sec-804d" data-image-width="1280" data-image-height="853">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250"> book for anyone</h1>
+        <p class="u-align-center u-large-text u-text u-text-variant u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250"> Anyone can read, anyone has the right to read<span style="font-weight: 700;"></span>
+        </p>
+        <div class="u-expanded-width-sm u-expanded-width-xs u-form u-form-1">
+                <form class="u-clearfix u-form-horizontal u-form-spacing-15 u-inner-form" method="get" asp-controller="Home" asp-action="Index">
+            <div class="u-form-email u-form-group">
+              <label class="u-form-control-hidden u-label">Email</label>
+                        <input placeholder="Enter the name of the book" name="Search" class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle" value="@ViewBag.Search">
+            </div>
+            <div class="u-form-group u-form-submit">
+              <input type="submit" value="submit" class="u-form-control-hidden">
+            </div>
+            <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+            <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
+            <input type="hidden" value="" name="recaptchaResponse">
+            <input type="hidden" name="formServices" value="7fe3bbc2-dc7f-5895-2951-7d184ffa6701">
+          </form>
+        </div>
+
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center u-container-style u-list-item u-palette-1-light-1 u-radius-22 u-repeater-item u-shape-round u-list-item-1" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500" data-href="https://nicepage.com/k/projects-website-templates" rel="nofollow">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                  <span class="u-file-icon u-icon u-text-black u-icon-1">
+                      <img src="~/images/2918200-25a43b8a.png" />
+                  </span>
+                <h4 class="u-align-center u-custom-font u-text u-text-font u-text-3"> Islami</h4>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-palette-1-light-1 u-radius-22 u-repeater-item u-shape-round u-list-item-2" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500" data-href="https://nicepage.com/k/card-html-templates" rel="nofollow">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                  <span class="u-file-icon u-icon u-text-black u-icon-2">
+                                <img src="~/images/7571944-f0573e7f.png" />
+                  </span>
+                <h4 class="u-align-center u-custom-font u-text u-text-font u-text-4">Fiction</h4>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-palette-1-light-1 u-radius-22 u-repeater-item u-shape-round u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500" data-href="https://nicepage.com" rel="nofollow">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                  <span class="u-file-icon u-icon u-text-black u-icon-3" >
+                                <img src="~/images/3843411-1bf7e3fd.png" />
+                  </span>
+                <h4 class="u-align-center u-custom-font u-text u-text-font u-text-5"> romantic</h4>
+              </div>
+            </div>
+            <div class="u-align-center u-container-align-center u-container-style u-list-item u-palette-1-light-1 u-radius-22 u-repeater-item u-shape-round u-list-item-4" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500" data-href="https://nicepage.com/joomla-page-builder" rel="nofollow">
+              <div class="u-container-layout u-similar-container u-container-layout-4">
+                  <span class="u-file-icon u-icon u-text-black u-icon-4">
+                      <img src="~/images/2633051-d6d1c064.png" />
+                      </span>
+                <h4 class="u-align-center u-custom-font u-text u-text-font u-text-6"> horror</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="u-clearfix u-section-2" id="sec-e4df">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-border-2 u-border-grey-75 u-container-style u-list-item u-radius-30 u-repeater-item u-shape-round">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <img class="u-image u-image-contain u-image-round u-radius-10 u-image-1" src="https://pixabay.com/get/gb4dce5ed8656ec8bd8cb9c9b7932aa441f52318746ddc42a25f9aefee7c78990119b68624868b195fe1ffbc656c4d271be7bf6507e0b8b854e89b3817d7a371b_1280.jpg" alt="" data-image-width="1280" data-image-height="816">
+                <h4 class="u-text u-text-default u-text-1">Sample Headline</h4>
+                <a href="https://nicepage.com/c/sports-html-templates" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-2 u-palette-1-base u-radius-2 u-btn-1">Next&nbsp;
+                    <span class="u-icon u-text-white">
+                    <svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" style="width: 1em; height: 1em;">
+                        <path d="M506.134,241.843c-0.006-0.006-0.011-0.013-0.018-0.019l-104.504-104c-7.829-7.791-20.492-7.762-28.285,0.068 c-7.792,7.829-7.762,20.492,0.067,28.284L443.558,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h423.557 l-70.162,69.824c-7.829,7.792-7.859,20.455-0.067,28.284c7.793,7.831,20.457,7.858,28.285,0.068l104.504-104 c0.006-.006,0.011-.013,0.018-.019C513.968,262.339,513.943,249.635,506.134,241.843z"></path>
+</svg>
+</span>
+                </a>
+                <a href="https://nicepage.com/joomla-templates" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-3" id="carousel_eee5">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-left-cell u-size-23-lg u-size-23-xl u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                  <div alt="" class="u-border-10 u-border-palette-3-dark-2 u-image u-image-circle u-image-1" src="" data-image-width="1280" data-image-height="854" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500"></div>
+                </div>
+              </div>
+              <div class="u-align-left u-container-align-center-md u-container-align-center-sm u-container-align-center-xs u-container-style u-layout-cell u-right-cell u-size-37-lg u-size-37-xl u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-2" data-animation-name="customAnimationIn" data-animation-duration="1500">
+                <div class="u-container-layout u-container-layout-2">
+                  <h2 class="u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500">About Us</h2>
+                  <p class="u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-2"> The library leads to any place to go to, to take advantage of any free moment to open it and read from it, whether that is before entering the meeting, or while in the means of transportation, and it is also possible to resort to books with digital versions to read them during the free time</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+</body>
+</html>

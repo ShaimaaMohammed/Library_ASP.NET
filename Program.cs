@@ -1,16 +1,14 @@
-using Library.Data;
 using Microsoft.EntityFrameworkCore;
-
+using CenterCourses.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
 builder.Services.AddMvc().AddRazorRuntimeCompilation();
-
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConStr1")));
-
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
